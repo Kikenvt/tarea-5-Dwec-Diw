@@ -1,4 +1,9 @@
-// NAVBAR
+/**
+ *  **Autor**: Enrique Fernández - Campoamor Fernández
+ * **Github**: https://github.com/Kikenvt/tarea-5-Dwec-Diw
+ */
+
+// Loading screen
 
 window.addEventListener('load', function() {
     const loading = document.getElementById('loading');
@@ -8,6 +13,8 @@ window.addEventListener('load', function() {
         loading.style.display = 'none';
     }, 2300); // same duration as the transition in the CSS
 });
+
+// Navbar
 
 const hamburger = document.querySelector(".hamburger-menu");
 const navMenu = document.querySelector(".nav-list");
