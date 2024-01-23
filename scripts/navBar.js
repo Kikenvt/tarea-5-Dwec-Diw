@@ -6,7 +6,7 @@ window.addEventListener('load', function() {
     loading.style.opacity = '0';
     setTimeout(function() {
         loading.style.display = 'none';
-    }, 6000); // same duration as the transition in the CSS
+    }, 2300); // same duration as the transition in the CSS
 });
 
 const hamburger = document.querySelector(".hamburger-menu");
