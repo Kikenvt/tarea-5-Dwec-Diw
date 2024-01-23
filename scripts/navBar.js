@@ -1,5 +1,14 @@
 // NAVBAR
 
+window.addEventListener('load', function() {
+    const loading = document.getElementById('loading');
+    loading.style.transform = 'scale(3)';
+    loading.style.opacity = '0';
+    setTimeout(function() {
+        loading.style.display = 'none';
+    }, 6000); // same duration as the transition in the CSS
+});
+
 const hamburger = document.querySelector(".hamburger-menu");
 const navMenu = document.querySelector(".nav-list");
 
